@@ -25,7 +25,7 @@ public class ${pageName}Fragment extends BaseFragment<${pageName}Presenter> impl
 
     @Override
     public void initInject() {
-        Dagger${pageName}Component //如找不到该类,请编译一下项目
+        Dagger${pageName}Component
                 .builder()
                 .build()
                 .inject(this);

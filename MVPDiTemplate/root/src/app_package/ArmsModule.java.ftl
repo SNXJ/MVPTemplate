@@ -11,7 +11,7 @@ import dagger.Provides;
 @Module
 public  class ${pageName}Module {
      @Provides
-        public ${pageName}Presenter Provices${pageName}Module() {
+        public ${pageName}Presenter provides${pageName}Presenter() {
             return new ${pageName}Presenter();
         }
 }
